@@ -8,6 +8,12 @@ academic performance(acpe): ap1, ap2, ap3, ap4
 Gamification: Yes/No                          
 119 out of 206 students receiving the serious game intervention
 
+cite:
+T1  - Data of a Serious Game Intervention
+DO  - doi:10.7910/DVN/KAO4T2
+UR  - https://doi.org/10.7910/DVN/KAO4T2
+PB  - Harvard Dataverse
+
 ## Library
 
 dplyr, stringr, Matrix, lavaan(Modeling), semPlot(Visualization)
@@ -54,6 +60,10 @@ el3 ~~ se1
 ap1 ~~ ap2
 "
 ```
+> semPaths(fit_2, "est", nCharNodes = 0)
+
+![image](https://user-images.githubusercontent.com/72392376/123827466-ecbd7a00-d900-11eb-874e-3408cfcb3469.png)
+
 > Globel Fit
 ```
 fitMeasures(fit,c("chisq", "df", "pvalue", "cfi", "tli","srmr","rmsea"), output = "matrix")
