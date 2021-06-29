@@ -60,7 +60,9 @@ el3 ~~ se1
 ap1 ~~ ap2
 "
 ```
-> semPaths(fit_2, "est", nCharNodes = 0)
+```
+semPaths(fit_2, "est", nCharNodes = 0)
+```
 
 ![image](https://user-images.githubusercontent.com/72392376/123827466-ecbd7a00-d900-11eb-874e-3408cfcb3469.png)
 
