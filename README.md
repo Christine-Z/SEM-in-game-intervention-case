@@ -9,10 +9,10 @@ Gamification: Yes/No
 119 out of 206 students receiving the serious game intervention
 
 cite:
-T1  - Data of a Serious Game Intervention
-DO  - doi:10.7910/DVN/KAO4T2
-UR  - https://doi.org/10.7910/DVN/KAO4T2
-PB  - Harvard Dataverse
+T1  - Data of a Serious Game Intervention                                        
+DO  - doi:10.7910/DVN/KAO4T2                             
+UR  - https://doi.org/10.7910/DVN/KAO4T2                                    
+PB  - Harvard Dataverse                         
 
 ## Library
 
