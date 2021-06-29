@@ -9,16 +9,8 @@ measures of Gamification: Yes/No
 119 out of 206 students receiving the serious game intervention
 
 ## Library
-** DATA MANIPULATION **
-library("dplyr")     
-library('stringr')
-library('Matrix')#rankMatrix
 
-** MODELING **
-library("lavaan")
-
-** VISUALIZATION **
-library("semPlot")#semPaths
+dplyr, stringr, Matrix, lavaan(Modeling), semPlot(Visualization)
 
 ## DIY Functions
 Matrixtrace (Maximum Likelihood estimation)
@@ -26,7 +18,7 @@ Fml(Parameter Estimation)
 
 ## Model Specification
 ### Model 1: four-factor Single-group SEM
-** Model 1 **
+**Model 1**
 ```
 model_1 <- " 
 #experiential learning
@@ -42,7 +34,7 @@ seff =~ se1+ se2
 acpe =~ ap1+ ap2+ ap3+ ap4
 "
 ```
-** Model 2 **
+**Model 2**
 ```
 model_2 <- " 
 #experiential learning
