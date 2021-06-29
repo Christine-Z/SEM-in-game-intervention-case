@@ -1,11 +1,11 @@
 # Game Intervention Case
 
 ## Dataset
-measures of experiential learning(expl): el1, el2, el3, el4                    
-measures of learning motivation(lemo): m1, m2                  
-measures of self-efficacy(seff): se1, se2                      
-measures of academic performance(acpe): ap1, ap2, ap3, ap4           
-measures of Gamification: Yes/No                          
+experiential learning(expl): el1, el2, el3, el4                    
+learning motivation(lemo): m1, m2                  
+self-efficacy(seff): se1, se2                      
+academic performance(acpe): ap1, ap2, ap3, ap4           
+Gamification: Yes/No                          
 119 out of 206 students receiving the serious game intervention
 
 ## Library
@@ -13,7 +13,7 @@ measures of Gamification: Yes/No
 dplyr, stringr, Matrix, lavaan(Modeling), semPlot(Visualization)
 
 ## DIY Functions
-Matrixtrace (Maximum Likelihood estimation)
+Matrixtrace (Maximum Likelihood estimation)                                     
 Fml(Parameter Estimation)
 
 ## Model Specification
